@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+}
+
+header {
+  background: #1f1f1f;
+  padding: 15px 0;
+  border-bottom: 2px solid #444;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffcc00;
+  font-size: 28px;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.auth-buttons .btn {
+  background: #ffcc00;
+  color: #000;
+  padding: 8px 12px;
+  margin-left: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://i.imgur.com/EHDl2ob.jpg') center center / cover no-repeat;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn.primary {
+  background: #ffcc00;
+  color: #000;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.games {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.game-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.game-card {
+  background: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f1f1f;
+  border-top: 2px solid #444;
+}
